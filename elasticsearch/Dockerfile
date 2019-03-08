@@ -1,5 +1,6 @@
 # https://github.com/elastic/elasticsearch-docker
-FROM docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.3
+# `elasticsearch-oss` is the pure Apache License version
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.6.1
 
 # Add your elasticsearch plugins setup here
 # Example: RUN elasticsearch-plugin install analysis-icu

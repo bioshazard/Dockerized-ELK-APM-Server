@@ -1,5 +1,5 @@
 
-<p align="center"> 
+<p align="center">
 <img src="./imgs/docket_ELK.png">
 </p>
 
@@ -12,6 +12,15 @@ Run the latest version of the ELK - APM (Elasticsearch, Logstash, Kibana, APM) s
 It will give you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch
 and the visualization power of Kibana. APM will help you to application performance Monitoring.
 
+## OSS v XPack
+
+https://www.elastic.co/products/x-pack/open
+
+https://www.elastic.co/subscriptions
+
+APM UI in XPack is free under the Basic plan.
+
+Use "-oss" suffix in image names to get the fully open source app
 
 ## Usage
 
@@ -40,4 +49,3 @@ By default, the stack exposes the following ports:
 * 9300: Elasticsearch TCP transport
 * 5601: Kibana
 * 8200: APM
-
